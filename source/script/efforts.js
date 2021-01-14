@@ -6,10 +6,10 @@
     myConnector.getSchema = function (schemaCallback) {
         var cols = [{
             id: "id",
-            dataType: tableau.dataTypeEnum.number
+            dataType: tableau.dataTypeEnum.int
         }, {
             id: "month",
-            dataType: tableau.dataTypeEnum.number
+            dataType: tableau.dataTypeEnum.int
         }, {
             id: "name",
             alias: "name",
@@ -20,7 +20,7 @@
         }, {
             id: "effortForPeriod",
             alias: "effortForPeriod",
-            dataType: tableau.dataTypeEnum.number
+            dataType: tableau.dataTypeEnum.int
         }, {
             id: "officeId",
             dataType: tableau.dataTypeEnum.string

@@ -9,7 +9,7 @@
             dataType: tableau.dataTypeEnum.int
         }, {
             id: "month",
-            dataType: tableau.dataTypeEnum.int
+            dataType: tableau.dataTypeEnum.string
         }, {
             id: "name",
             alias: "name",
@@ -106,7 +106,7 @@
 
         var YEAR = '2020';
         var tableData = [];
-        var transformJSON = function (resp, monthId) {
+        var transformJSON = function (resp, monthId, startDate) {
             var pages = resp;
             var tableDataForCurrentMonth = [];
 
@@ -118,7 +118,7 @@
                 for (var employee = 0, employeesTotal = employees.length; employee < employeesTotal; employee++) {
                     tableDataForCurrentMonth.push({
                         "id": currentPage.id,
-                        "month": monthId,
+                        "month": `${YEAR}-${startDate}`,
                         "name": currentPage.name,
                         "employeeName": employees[employee].name,
                         "effortForPeriod": employees[employee].effortForPeriod,
@@ -148,7 +148,7 @@
             return $.ajax({
                 method: 'GET',
                 url: createURL(`${YEAR}-${startDate}`, `${YEAR}-${endDate}`),
-                success: (data) => transformJSON(data, id),
+                success: (data) => transformJSON(data, id, startDate),
             });
         });
 

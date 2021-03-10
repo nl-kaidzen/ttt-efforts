@@ -92,7 +92,7 @@
       var year = newDate.getFullYear();
 
       // Если номер месяца меньше 10, то нужно приписать "0" перед ним.
-      var month = newDate.getMonth() + 1 >= 9 ? newDate.getMonth() + 1 : `0${newDate.getMonth() + 1}`;
+      var month = newDate.getMonth() + 1 > 9 ? newDate.getMonth() + 1 : `0${newDate.getMonth() + 1}`;
 
       // Обрабатываем кейс если день в startDate не будет началом месяца.
       if (index === 0) {

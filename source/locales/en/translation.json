@@ -1,0 +1,123 @@
+{
+    "test": "",
+    "authentication": {
+        "title": {
+            "label": "My title",
+            "header": "Login",
+            "info": "Log in and get access to the Edflex Web browser extension"
+        },
+        "input": {
+            "email": "Email",
+            "password": "Password"
+        },
+        "button": {
+            "label": "Sign in"
+        }
+    },
+    "onboarding": {
+        "title": {
+            "header": "How it works ?",
+            "info": "Use this browser extension to be faster and more productive when adding a resource to a customer selection or catalog. Make it easier to write a review of a resource without losing attention on it.",
+            "title": "How it works ?"
+        },
+        "button": {
+            "label": "Let's start !"
+        }
+    },
+    "dashboard": {
+        "title": {
+            "menu": "Menu",
+            "info": "Select where you want to add the resource",
+            "catalog": "Categorize the resource directly",
+            "selection": "Highlight it on the home page",
+            "database": "For a future usage"
+        },
+        "category": {
+            "catalog": "Add to a catalog",
+            "selection": "Add to a content selection",
+            "database": "Add to database"
+        }
+    },
+    "resource": {
+        "title": {
+            "info": "Which type to integrate?",
+            "header": "Resource integration",
+            "level": "Level",
+            "language": "Language",
+            "basic": "Introductive",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced",
+            "duration": "Duration in minutes",
+            "about": "About the content",
+            "author": "Author's name",
+            "bio": "Author's bio",
+            "url": "Resource URL",
+            "source": "Source",
+            "slug": "Slug",
+            "price": "Price2",
+            "metatitle": "Metatitle",
+            "metadescription": "Metadescription",
+            "metakeyword": "Metakeyword"
+        },
+        "button": {
+            "article": "Article",
+            "video": "Video",
+            "book": "Book",
+            "podcast": "Podcast",
+            "mooc": "Course",
+            "edit": "Edit",
+            "send": "Finalizing integration"
+        },
+        "tab": {
+            "general": "General",
+            "author": "Author",
+            "advanced": "Advanced"
+        }
+    },
+    "messages": {
+        "closeExtension": "If you confirm this action, you will lose your current work",
+        "confirmation": {
+            "db": "The resource has been successfully added to the database",
+            "catalog": "The resource has been successfully added to the catalog",
+            "selection": "The resource has been successfully added to the selection",
+            "review": "The review has been successfully updated",
+            "resource": "The resource has been successfully updated"
+        }
+    },
+    "common": {
+        "button": {
+            "back": "Go back"
+        }
+    },
+    "review": {
+        "title": {
+            "menu": "Review",
+            "header": "Write expert's review and rating",
+            "reviewerLabel": "Select expert",
+            "starLabel": "Rate",
+            "feedbackLabel": "Review"
+        },
+        "button": {
+            "skip": "Skip",
+            "add": "Add Review"
+        }
+    },
+    "confirmation": {
+        "title": {
+            "menu": "Resource successfully added",
+            "edit": "Adjusting or reviewing the entry",
+            "review": "Guide learners in their research",
+            "catalog": "Categorize the resource directly",
+            "selection": "Highlight it on the home page"
+        },
+        "category": {
+            "edit": "Edit resource",
+            "review": "Add or Edit review",
+            "catalog": "Add to Catalog",
+            "selection": "Add to content selection"
+        },
+        "button": {
+            "label": "I'm done with this resource"
+        }
+    }
+}

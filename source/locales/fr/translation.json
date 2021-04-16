@@ -1,0 +1,123 @@
+{
+    "test": "test",
+    "authentication": {
+        "title": {
+            "label": "Mon titre",
+            "header": "Connexion",
+            "info": "Connectez vous pour accéder à la gestion des nouvelles ressources"
+        },
+        "input": {
+            "email": "Votre Email",
+            "password": "Votre mot de passe"
+        },
+        "button": {
+            "label": "Se connecter"
+        }
+    },
+    "onboarding": {
+        "title": {
+            "header": "Fonctionnement",
+            "info": "Avec cette extension navigateur, soyez plus rapide et productif pour ajouter une ressource à une sélection ou catalogue client et obtenez la possibilité de rédiger un avis dans les meilleurs conditions",
+            "title": "Comment ça fontionne ?"
+        },
+        "button": {
+            "label": "Continuer"
+        }
+    },
+    "dashboard": {
+        "title": {
+            "menu": "Menu",
+            "info": "Bienvenue dans le gestionnaire de ressource",
+            "catalog": "Catégoriser la ressource pour l'ajouter",
+            "selection": "Pour afficher sur la page d'accueil",
+            "database": "Pour utiliser cette ressource ultérieurement"
+        },
+        "category": {
+            "catalog": "Ajouter à un catalogue",
+            "selection": "Ajouter à une sélection",
+            "database": "Intégrer à la base de donnée"
+        }
+    },
+    "resource": {
+        "title": {
+            "info": "Which type to integrate?",
+            "header": "Intégrer une ressource",
+            "level": "Niveau",
+            "language": "Language",
+            "basic": "Introductif",
+            "intermediate": "Intermédiaire",
+            "advanced": "Avancé",
+            "duration": "Durée (min)",
+            "about": "Résumé",
+            "author": "Nom auteur",
+            "bio": "Description auteur",
+            "url": "Lien de la ressource",
+            "source": "Source",
+            "slug": "Slug",
+            "price": "Prix",
+            "metatitle": "MetaTitle",
+            "metadescription": "Metadescription",
+            "metakeyword": "Metakeyword"
+        },
+        "button": {
+            "article": "Article",
+            "video": "Video",
+            "book": "Book",
+            "podcast": "Podcast",
+            "mooc": "Course",
+            "edit": "Modifier",
+            "send": "Finaliser l'intégration"
+        },
+        "tab": {
+            "general": "Général",
+            "author": "Auteur",
+            "advanced": "Avancé"
+        }
+    },
+    "messages": {
+        "closeExtension": "If you confirm this action, you will lose your current work",
+        "confirmation": {
+            "db": "",
+            "catalog": "La ressource a bien été enregistrée dans le catalogue",
+            "selection": "",
+            "review": "",
+            "resource": ""
+        }
+    },
+    "common": {
+        "button": {
+            "back": "Retour"
+        }
+    },
+    "review": {
+        "title": {
+            "menu": "Ajouter un avis",
+            "header": "Redigez un avis et la note de l'expert",
+            "reviewerLabel": "Expert",
+            "starLabel": "Note globale",
+            "feedbackLabel": "Avis"
+        },
+        "button": {
+            "skip": "Passer l'étape",
+            "add": "Ajouter l'avis"
+        }
+    },
+    "confirmation": {
+        "title": {
+            "menu": "Intégration réussie",
+            "edit": "Rectifier ou revenir sur sa saisie",
+            "review": "Guider les apprenants dans leur recherche",
+            "catalog": "Catégoriser la ressource pour l'ajouter",
+            "selection": "Afficher sur la page d'accueil"
+        },
+        "category": {
+            "edit": "Modifier la ressource",
+            "review": "Ajouter ou modifier l’avis",
+            "catalog": "Ajouter à un catalogue",
+            "selection": "Ajouter à une sélection"
+        },
+        "button": {
+            "label": "J'ai terminé"
+        }
+    }
+}
